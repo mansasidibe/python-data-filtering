@@ -3,4 +3,8 @@ from pathlib import Path
 
 import pandas as pd
 
-pd.read_csv(Path().joinpath('donnees', 'pokemon.csv'))
+## lecture de fichier csv
+pokemon = pd.read_csv(Path().joinpath('donnees', 'pokemon.csv'))
+
+print(pokemon)
+
